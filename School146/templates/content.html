@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Неофициальный сайт МАОУ "СОШ №146"</title>
+		<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<script type="text/javascript" src="../static/js/content.js"></script>
+	</head>
+	<body onload="main()">
+		<!-- Header part -->
+		<header id="header">
+			<div class="logo" id="top_menu_logo">
+				<img src="../static/img/logo.png" alt="logo">
+			</div>
+			<div id="top_menu" class="menu">
+				<ul class="point_menu">
+					<a href="#" class="point_of_menu"><li>Войти<hr class="menu_line"></li></a>
+					<a href="#" class="point_of_menu"><li>Галерея<hr class="menu_line"></li></a>
+					<a href="#" class="point_of_menu"><li>Новости<hr class="menu_line"></li></a>
+					<a href="#" class="point_of_menu"><li>Олимпиады<hr class="menu_line"></li></a>
+					<a href="#" class="point_of_menu"><li>Архив газеты<hr class="menu_line"></li></a>
+					<a href="#" class="point_of_menu"><li>Столовая<hr class="menu_line"></li></a>
+					<a href="#" class="point_of_menu"><li>Аттестации<hr class="menu_line"></li></a>
+					<a href="#" class="point_of_menu"><li>Расписание<hr class="menu_line"></li></a>
+					<a href="#" class="point_of_menu"><li>Преметы<hr class="menu_line"></li></a>
+					<a href="#" class="point_of_menu"><li>О школе<hr class="menu_line"></li></a>
+				</ul>
+			</div>
+		</header>
+		<!-- Slider -->
+		<div class="slider" id="slider">
+			<div class="slider_background">
+				<a href="#" onclick="prev_slide()">
+					<div class="arrow">
+						<img src="../static/img/left_arrow.png">
+					</div>
+				</a>
+				<div class="slider_container" id="slide">
+					<h1 id="slider_h"></h1>
+					<p id="slider_text"></p>
+				</div>
+				<a href="#" onclick="next_slide()">
+					<div class="arrow">
+						<img src="../static/img/right_arrow.png">
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- Main part -->
+		<content>
+			<h1 class="content_title"></h1>
+			<div class="content_images"></div>
+			<p class="content_text"></p>
+		</content>
+		<!-- Fotter part -->
+		<footer>
+			<ul class="icons">
+				<a href="https://www.facebook.com/school146perm" class="icon"><li><img src="../static/img/facebook.png"></li></a>
+				<a href="https://www.instagram.com/school146perm/" class="icon"><li><img src="../static/img/instagram.png"></li></a>
+				<a href="https://twitter.com/school146" class="icon"><li><img src="../static/img/twitter.png"></li></a>
+				<a href="https://www.youtube.com/channel/UC5WufrqFj3o7FIJP9ySKF-g" class="icon"><li><img src="../static/img/youtube.png"></li></a>
+			</ul>
+			<p>
+				© Муниципальное автономное общеобразовательное учреждение<br>"Средняя общеобразовательная школа № 146 с углубленным изучением математики, физики, информатики" г.Перми, 2003-2021 гг.
+			</p>
+		</footer>
+	</body>
+</html>

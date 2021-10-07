@@ -61,6 +61,9 @@ button {
 	border: none;
 	background-color: none;
 }
+content {
+	padding: 50px;
+}
 
 .menu {
 	display: flex;
@@ -310,6 +313,23 @@ button {
   	border-radius: 10px;
   	padding-left: 2%;
   	height: 100%;
+}
+.content_title {
+	font-size: 50px;
+	color: #304574;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+.content_images {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.content_text {
+	color: #304574;
+	font-size: 14pt;
+	padding-top: 20px;
 }
 
 .point_of_menu:hover .menu_line{ 
