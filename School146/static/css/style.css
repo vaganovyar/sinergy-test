@@ -301,6 +301,7 @@ content {
 	width: calc(100%);
   	background-color: #FF9700AD;
   	border-radius: 10px;
+  	transition: 0.5s;
 }
 .article_img {
 	margin: 0px;
@@ -346,6 +347,7 @@ content {
 	background-color: #2E74B0B2;
 	border-radius: 100px;
 	padding-left: 1%;
+	padding-right: 1%;
 	color: white;
 	font-size: 20px;
 }
@@ -383,4 +385,9 @@ footer:hover {
 }
 .login_button:hover {
 	cursor: pointer;	
+}
+.article:hover {
+	transform: translate(-30px, -30px);
+	transition: 0.5s;
+  	background-color: #FF9700;
 }
