@@ -63,6 +63,7 @@ button {
 }
 content {
 	padding: 50px;
+	min-height: 71vh;
 }
 
 .menu {
@@ -196,9 +197,11 @@ content {
   	grid-column-gap: 20px;
   	grid-row-gap: 20px;
   	color: white;
-  	margin-left: 10%;
+  	padding-left: 0px;
+  	padding-right: 10%;
   	padding-top: 7vh;
   	padding-bottom: 7vh;
+  	padding-left: 10%;
 }
 .post-1 {
 	grid-column-start: 1;
@@ -297,6 +300,8 @@ content {
 	justify-content: flex-start;
 	height: 100%;
 	width: 100%;
+  	background-color: #FF9700AD;
+  	border-radius: 10px;
 }
 .article_img {
 	margin: 0px;
@@ -308,7 +313,6 @@ content {
 .article_text {
 	z-index: 1;
 	color: white;
-  	background-color: #FF9700AD;
   	margin: 0px;
   	border-radius: 10px;
   	padding-left: 2%;
@@ -320,6 +324,7 @@ content {
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	font-weight: bold;
 	padding-bottom: 20px;
+	padding-top: 20px;
 }
 .content_images {
 	display: flex;
@@ -330,6 +335,20 @@ content {
 	color: #304574;
 	font-size: 14pt;
 	padding-top: 20px;
+}
+.input_content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.login {
+	border: none;
+	background-color: #2E74B0B2;
+	border-radius: 10px;
+	padding-left: 1%;
+	color: white;
+	font-size: 20px;
 }
 
 .point_of_menu:hover .menu_line{ 
