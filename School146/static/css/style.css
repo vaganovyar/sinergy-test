@@ -292,14 +292,13 @@ content {
  }
 .tile {
 	border-radius: 10px;
-	padding: 5px;
 }
 .article {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	height: 100%;
-	width: 100%;
+	height: calc(100%);
+	width: calc(100%);
   	background-color: #FF9700AD;
   	border-radius: 10px;
 }
@@ -345,10 +344,22 @@ content {
 .login {
 	border: none;
 	background-color: #2E74B0B2;
-	border-radius: 10px;
+	border-radius: 100px;
 	padding-left: 1%;
 	color: white;
 	font-size: 20px;
+}
+.login_button {
+	border: none;
+	background-color: #2E74B0B2;
+	border-radius: 100px;
+	color: white;
+	font-size: 20px;
+	margin-top: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .point_of_menu:hover .menu_line{ 
@@ -369,4 +380,7 @@ footer:hover {
 	transition: 0.5s;
 	background-color: #00000040;
 	z-index: 0;
+}
+.login_button:hover {
+	cursor: pointer;	
 }
